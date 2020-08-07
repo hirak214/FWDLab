@@ -1,11 +1,11 @@
-/* 
+/*
   yellow color-code  - #ffcc28
   Blue color-code  - #11317B
 
 */
   /* Make the image fully responsive */
 body {
-  font-family: 'Asap', sans-serif !important;  
+  font-family: 'Asap', sans-serif !important;
 }
 a:hover {
   text-decoration: none;
@@ -54,7 +54,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
     font-weight: 600;
   }
   .section-academic-details a{
-    color: #11317B!important;   
+    color: #11317B!important;
     font-weight: 600;
   }
   .section-academic-details ul, .section-academic-details ul li {
@@ -76,7 +76,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
     height: 200px
   }
   .ecol-board .board-date{
-    color: #11317B;    
+    color: red;
     bottom: 0px;
     left: 0px;
     background-color: #FFCC56;
@@ -108,7 +108,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 .blog-info-section .blog-form-title{
   margin-top: 20px;
-  color: #11317b;   
+  color: #11317b;
 }
 .blog-info-section  .blog-sidebar-search1 {
   border: 1px solid #11317b;
@@ -135,18 +135,18 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 .blog-info-section .blog-content-text{
   text-align: justify;
 }
-.blog-info-section .comment-blogs .boxes{ 
-  border-top: 1px solid black;  
+.blog-info-section .comment-blogs .boxes{
+  border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
-.blog-info-section .comment-blogs .boxes:last-child { 
+.blog-info-section .comment-blogs .boxes:last-child {
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
 .blog-info-section .board-date{
-  color: #11317B;    
+  color: #11317B;
   bottom: 0px;
   left: 0px;
   background-color: #FFCC56;
@@ -163,7 +163,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 .blog-info-section .blog-title{
   color: #11317B;
-} 
+}
 /*================== bulletien board information End =================== */
 
 
@@ -223,13 +223,13 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
   font-size: 16px !important;
   font-weight: bold;
   width: 53px;
-  text-align: center;    
+  text-align: center;
 }
 .ecol-section-event .img-box img{
   object-fit: cover;
   height: 100%;
   width: 100%;
-}  
+}
 .search-event-btn {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -265,8 +265,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
   font-weight: 600;
 }
 .ecol-event-info-section .event-box{
-  margin-top: 1rem!important; 
-  margin-bottom: 1rem!important; 
+  margin-top: 1rem!important;
+  margin-bottom: 1rem!important;
 }
 .ecol-event-info-section .event-date-box {
   color: #11317B;
@@ -278,9 +278,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
   font-size: 16px !important;
   font-weight: bold;
   width: 55px;
-  text-align: center;    
+  text-align: center;
 }
-.ecol-event-info-section ul.time_location{ 
+.ecol-event-info-section ul.time_location{
     margin-left: 2px;
 }
 .ecol-event-info-section .time_location li{
@@ -323,7 +323,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 .gallery ul.nav li.active a{
   color: #11317B;
-  font-weight: 600; 
+  font-weight: 600;
   font-size: 22px;
 }
 .gallery-img{
@@ -410,12 +410,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 
 .select2-container--default .select2-selection--single .select2-selection__rendered
 {
-  font-size: .875rem !important;  
+  font-size: .875rem !important;
  /* color: #495057 !important;*/
   line-height: 32px !important;
 }
 .select2-container--default .select2-selection--single .select2-selection__placeholder {
-  color: #495057de !important;  
+  color: #495057de !important;
 }
 .select2-container--default .select2-selection--single .select2-selection__arrow b{
   margin-top: 2px !important;
@@ -423,7 +423,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 
 [class^='select2'] {
   border-radius: 0px !important;
-}  
+}
 .select2-container--open {
   z-index: 1;
 }
@@ -433,14 +433,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 /*=====================================
 ======Side Social icons fixed =========
-=======================================*/ 
+=======================================*/
 .ecol-header-fixed{
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 99;
   left: 0;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .ecol-img{
@@ -478,7 +478,7 @@ option:not(:first-of-type) {
   box-shadow: unset;
   text-decoration: none;
   opacity: .75;
-}    
+}
 .ecol-fixed-social {
     position: fixed;
     display: block;
@@ -520,7 +520,7 @@ option:not(:first-of-type) {
 }
 
 .ecol-fixed-social:hover, .ecol-fixed-social.mobile:hover, .ecol-fixed-social.email:hover, .ecol-fixed-social.loc:hover
-{ 
+{
   right: 0px;
 }
 
@@ -541,11 +541,11 @@ option:not(:first-of-type) {
 }
 /*=====================================
 ======Side Social icons fixed end =======
-=======================================*/  
+=======================================*/
 
 /*=====================================
 =============header menu css ===========
-=======================================*/  
+=======================================*/
 .logo {
   position: relative;
 }
@@ -576,7 +576,7 @@ option:not(:first-of-type) {
   margin-right: 2px;
 }
 .ecol-header .ecol-navbar li a i {
-  margin-left: 5px;  
+  margin-left: 5px;
 }
 .ecol-header .ecol-navbar li .dropdown {
   background: #fff;
@@ -657,11 +657,11 @@ marquee p{margin-bottom: 0px;}
 }
 /*=====================================
 =============header menu css end===========
-=======================================*/  
+=======================================*/
 
 /*=====================================
 =============Home banner css end===========
-=======================================*/ 
+=======================================*/
 
 
 
@@ -695,37 +695,37 @@ marquee p{margin-bottom: 0px;}
 }
 /*=====================================
 =============Home banner css end===========
-=======================================*/ 
+=======================================*/
 
 /*=====================================
 ====== admission enquiry home css ======
-=======================================*/  
+=======================================*/
 .enroll-form{
   background-color: rgba(17,49,123,0.59);
   padding: 20px 20px;
-} 
+}
 .enroll-form input[type="text"] , .enroll-form input[type="tel"] , .enroll-form input[type="email"] ,  .enroll-form textarea {
   background: transparent;
   border: none;
   border-bottom: 1px solid #fff;
   width: 100%;
   outline: none;
-  padding: 0px 0px 0px 0px;   
+  padding: 0px 0px 0px 0px;
   border-radius: unset;
   color: #fff;
 }
 .enroll-section .form-header {
   padding: 20px;
-} 
+}
 .enroll-section .enroll-title{
   padding: 10px;
-  font-size: 38px;  
+  font-size: 38px;
 }
 .enroll-section .enroll-sub-title{
   padding: 10px;
-  font-size: 16px; 
-} 
-.enroll-form textarea:focus, 
+  font-size: 16px;
+}
+.enroll-form textarea:focus,
 .enroll-form input[type=text]:focus,
 .enroll-form input[type=email]:focus,
 .enroll-form input[type=tel]:focus
@@ -741,16 +741,16 @@ marquee p{margin-bottom: 0px;}
   border-bottom: 1px solid #fff;
   width: 150px;
   outline: none;
-  padding: 0px 0px 0px 0px;   
+  padding: 0px 0px 0px 0px;
   border-radius: unset;
 }
 /*=====================================
 ====Admission enquiry home css end ====
-=======================================*/  
+=======================================*/
 
 /*=====================================
 =============EMWS Facts css ===========
-=======================================*/  
+=======================================*/
 .section-emws-facts .ecol-sub-title{
     color: #fff;
   }
@@ -835,13 +835,13 @@ marquee p{margin-bottom: 0px;}
 }
 
 .section-emws-facts .ecol-progress.yellow .progress-bar{
-  border-color: #ffcc28;  
+  border-color: #ffcc28;
 }
 .section-emws-facts .ecol-progress.yellow .progress-value{
   color: #ffcc28;
 }
 .section-emws-facts .ecol-progress.yellow .progress-left .progress-bar{
-  animation: loading-3 1s linear forwards 1.8s;  
+  animation: loading-3 1s linear forwards 1.8s;
 }
 
 
@@ -911,7 +911,7 @@ marquee p{margin-bottom: 0px;}
 }
 /*=====================================
 =============EMWS Facts css end ===========
-=======================================*/  
+=======================================*/
 
 /*===== testimonisl panel ===== */
 
@@ -930,7 +930,7 @@ marquee p{margin-bottom: 0px;}
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;   
+  color: #fff;
 
 }
 
@@ -940,7 +940,7 @@ marquee p{margin-bottom: 0px;}
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;   
+  color: #fff;
 
 }
 .parallax11 .text-muted, .parallax12 .text-muted {
@@ -961,7 +961,7 @@ marquee p{margin-bottom: 0px;}
   border: #ffcc28;
   color: #fff;
   border-radius: 5px;
-  padding: 12px;  
+  padding: 12px;
   width: 100%;
   text-align: center;
 }
@@ -985,11 +985,11 @@ footer .contact-info{
   }
 }
 
-  
+
 
 /*--==== ecole testimonail css start=====----*/
   .ecol-home-testimonial .owl-carousel.owl-drag .ecol-testimonial-item{
-    background: #fff;    
+    background: #fff;
     padding: 20px 20px;
     margin-top: 1%;
   }
@@ -1007,7 +1007,7 @@ footer .contact-info{
   }
   .ecol-home-testimonial p.quote i.fa{
     font-size: 23px;
-    color: #ffcc28;    
+    color: #ffcc28;
   }
   .ecol-home-testimonial p.quote.quote-right {
     margin-bottom: 38px;
@@ -1019,10 +1019,10 @@ footer .contact-info{
   }
 
   .ecol-home-testimonial .owl-nav .owl-prev {
-    left: -12px;   
+    left: -12px;
   }
   .ecol-home-testimonial .owl-nav .owl-next {
-    right: -18px;    
+    right: -18px;
   }
 /*--==== ecole testimonail css end=====----*/
 
@@ -1031,7 +1031,7 @@ footer .contact-info{
 @media only screen and (min-width: 992px) {
   section.margin-bottom {
     margin-bottom: 40px;
-  }  
+  }
 
   .ecol-section.ecol-margin-top{
     margin-top: 45px;
@@ -1048,10 +1048,10 @@ footer .contact-info{
     margin:26px 28px 44px 44px;
     position: relative;
   }
-  .ecol-section .ecol-section-title span {  
-    color: #ffcc28;   
+  .ecol-section .ecol-section-title span {
+    color: #ffcc28;
   }
- 
+
   .ecol-search-box
   {
     position: absolute;
@@ -1077,7 +1077,7 @@ footer .contact-info{
   }
   .small--hide1{
     display: inline-block;
-  }  
+  }
   .small--hide{
     display: block;
   }
@@ -1090,47 +1090,26 @@ footer .contact-info{
   /* ===========================================
   ============University logos start ===========
   ============================================*/
-  
-  
+
+
   .university-logos .owl-carousel .item {
    /* position: relative;
-    z-index: 100; 
+    z-index: 100;
     -webkit-backface-visibility: hidden; */
   }
   .university-logos .owl-nav {
-    margin-top: -26px;    
+    margin-top: -26px;
     top: 50%;
     color: #cdcbcd;
   }
   .university-logos .owl-nav i {
     font-size: 52px;
   }
-  .university-logos .owl-nav .owl-prev, 
+  .university-logos .owl-nav .owl-prev,
   .ecol-home-banner .owl-nav .owl-prev,
   .ecol-best-selling .owl-nav .owl-prev,
   .ecol-home-testimonial .owl-nav .owl-prev
-  {   
-    height: 48px;
-    width: 48px;
-    line-height: 48px;
-    top: 50%;
-    margin-top: -24px;
-    background: rgba(0, 0, 0, 0.56) !important;
-    color: #fff !important;
-    font-size: 25px;
-    position: absolute;
-    border: none;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    border-radius: 100% !important;
-  }
-  .university-logos .owl-nav .owl-next, 
-  .ecol-home-banner .owl-nav .owl-next, 
-  .ecol-best-selling .owl-nav .owl-next, 
-  .ecol-home-testimonial .owl-nav .owl-next 
   {
-   
     height: 48px;
     width: 48px;
     line-height: 48px;
@@ -1146,10 +1125,31 @@ footer .contact-info{
     transition: all 0.4s ease;
     border-radius: 100% !important;
   }
-  .university-logos .carousel-control-next-icon, .university-logos .carousel-control-prev-icon, 
+  .university-logos .owl-nav .owl-next,
+  .ecol-home-banner .owl-nav .owl-next,
+  .ecol-best-selling .owl-nav .owl-next,
+  .ecol-home-testimonial .owl-nav .owl-next
+  {
+
+    height: 48px;
+    width: 48px;
+    line-height: 48px;
+    top: 50%;
+    margin-top: -24px;
+    background: rgba(0, 0, 0, 0.56) !important;
+    color: #fff !important;
+    font-size: 25px;
+    position: absolute;
+    border: none;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border-radius: 100% !important;
+  }
+  .university-logos .carousel-control-next-icon, .university-logos .carousel-control-prev-icon,
   .ecol-home-banner .carousel-control-prev-icon, .ecol-home-banner .carousel-control-next-icon,
-  .ecol-best-selling .carousel-control-prev-icon, .ecol-best-selling .carousel-control-next-icon,  
-  .ecol-home-testimonial .carousel-control-prev-icon, .ecol-home-testimonial .carousel-control-next-icon  
+  .ecol-best-selling .carousel-control-prev-icon, .ecol-best-selling .carousel-control-next-icon,
+  .ecol-home-testimonial .carousel-control-prev-icon, .ecol-home-testimonial .carousel-control-next-icon
   {
     margin-top: 8px;
     margin-left: -3px;
@@ -1164,7 +1164,7 @@ footer .contact-info{
   }
   .university-logos .owl-nav .owl-prev{
     left: -77px;
-  }  
+  }
   .university-logos .owl-nav .owl-next {
     right: -64px;
   }
@@ -1203,17 +1203,17 @@ footer .contact-info{
     top: 61%;
     right: -76px;
   }
-  .ecol-header .ecol-navbar li:hover .dropdown {   
+  .ecol-header .ecol-navbar li:hover .dropdown {
     max-height: 210px;
     position: absolute;
     overflow-y: scroll;
-  }    
+  }
   .logo img {
     height: 71px;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999; 
+    z-index: 999;
   }
   .ecol-home-banner .owl-carousel .owl-item{
     height: 250px !important;
@@ -1237,12 +1237,12 @@ footer .contact-info{
     color: #11317B;
     margin: 28px 28px 39px 39px;
     position: relative;
-  } 
-  .ecol-section .ecol-section-title span {  
-    color: #ffcc28;   
   }
- 
- 
+  .ecol-section .ecol-section-title span {
+    color: #ffcc28;
+  }
+
+
   .section-emws-facts .emws-box {
     padding: 8px 0px;
   }
@@ -1274,13 +1274,13 @@ footer .contact-info{
   .small--show{
     display: block;
   }
-  
+
   #testimonialsCarousel .testimonial-card .caption {
     background-color: #fff;
     padding: 34px;
     margin-top: -92px;
   }
-  
+
   .contact-container .section-get-touch{
     margin-top: 56px;
   }
@@ -1496,7 +1496,7 @@ footer.footer {
   letter-spacing: 1px;
 }
 .footer .fa, .contact .fa{
-  color: #ffcc28;  
+  color: #ffcc28;
   font-size: 18px;
 }
 .footer .list-inline-item{
@@ -1506,8 +1506,8 @@ footer.footer {
 /*===== footer css end===*/
 
 /*=========================
-      return to top 
-  ========================*/ 
+      return to top
+  ========================*/
   #return-to-top {
     position: fixed;
     bottom: 20px;
@@ -1546,12 +1546,12 @@ footer.footer {
     background: #ffcc28;
 }
 #return-to-top:hover i {
-  color: #fff;    
+  color: #fff;
 }
 
 /*=========================
       return to top end
-  ========================*/    
+  ========================*/
 .btn-ecol {
   font-weight: 500;
   text-align: center;
@@ -1602,7 +1602,7 @@ footer.footer {
 
 
 /*================================
- contact and admission inquiry form 
+ contact and admission inquiry form
 ==================================*/
  .contact-container, .schedule-container, .admission-container{
     margin-top: 52px;
@@ -1613,7 +1613,7 @@ footer.footer {
     margin-bottom: 15px;
   }
   .contact-container h3.contact-subheading, .ecol-section h3.subheading {
-    font-size: 18px;    
+    font-size: 18px;
   }
   .contact-container .contact-info {
     padding: 20px 20px;
@@ -1623,7 +1623,7 @@ footer.footer {
     font-size: 18px;
     font-weight: 200;
   }
-  
+
   .contact-container .contact a.fa-icon {
     padding: 0px 4px;
   }
@@ -1684,7 +1684,7 @@ section.breadcrumbs-gallary .col-12{
 .breadcrumbs-gallary .bread-list {
   border-radius: 3px;
   background: transparent;
-  display: inline-block; 
+  display: inline-block;
   margin-left: 0px;
 }
 .breadcrumbs-gallary ul li {
@@ -1700,7 +1700,7 @@ section.breadcrumbs-gallary .col-12{
 .breadcrumbs-gallary ul li i {
   margin: 0px 7px;
 }
-.breadcrumbs-gallary ul li.active a {  
+.breadcrumbs-gallary ul li.active a {
   border-radius: 5px;
   color: #fff;
 }
@@ -1718,8 +1718,8 @@ section.breadcrumbs-gallary .col-12{
 section breadcrumbs start
 ==================================*/
 /*background: url(../img/breadcrumbs-img/breadcrumbs-banner.jpg);*/
-section.ecole-breadcrumbs {    
-  position: relative; 
+section.ecole-breadcrumbs {
+  position: relative;
   text-align: left;
   padding: 80px 0;
 }
@@ -1811,7 +1811,7 @@ section.ecole-breadcrumbs .col-12{
 .ecole-breadcrumbs .bread-list {
   border-radius: 3px;
   background: transparent;
-  display: inline-block; 
+  display: inline-block;
   margin-left: 0px;
 }
 .ecole-breadcrumbs ul li {
@@ -1827,7 +1827,7 @@ section.ecole-breadcrumbs .col-12{
 .ecole-breadcrumbs ul li i {
   margin: 0px 7px;
 }
-.ecole-breadcrumbs ul li.active a {  
+.ecole-breadcrumbs ul li.active a {
   border-radius: 5px;
   color: #fff;
 }
@@ -1861,7 +1861,7 @@ section.ecole-breadcrumbs .col-12{
     font-size: 23px;
     color: #11317B;
     font-weight: 600;
-  } 
+  }
 
   .ecol-section .leavemsginqry .contact-subheading::before{
     left: 4% !important;
@@ -1872,7 +1872,7 @@ section.ecole-breadcrumbs .col-12{
 
 .ecol-section .contact-phone p, .ecol-section .contact-mail p{
   line-height: 1.8;
-}  
+}
 
 .ecol-section .contactuspage{
   padding-top: 15px;
@@ -1918,20 +1918,20 @@ section.ecole-breadcrumbs .col-12{
     width: 0;
     float: right;
   }
-  
-  
+
+
 
   .ecol-blog-right-side .blog-sidebar-search1, .admission-form-section .admission-line1, .ecol-section .blue-line1 {
-      border: 1px solid #11317B;   
+      border: 1px solid #11317B;
       clear: both;
-      height: 0;    
+      height: 0;
       width: 100px;
       margin-left: 8px;
       margin-top: 5px;
       margin-bottom: 2px;
   }
   .ecol-blog-right-side .blog-sidebar-search2, .admission-form-section .admission-line2, .ecol-section .blue-line2 {
-      border: 1px solid #11317B;   
+      border: 1px solid #11317B;
       clear: both;
       height: 0;
       margin: 0.25rem 0px 1.1875rem;
@@ -1988,7 +1988,7 @@ section.ecole-breadcrumbs .col-12{
     top: 45px;
   }
   /*====== blue line for Admission ======== */
-  
+
   /*====== blue line for bulletin board start ======== */
   .ecol-blog-right-side h4.search-title{
     margin-top: 5px;
@@ -2023,7 +2023,7 @@ section.ecole-breadcrumbs .col-12{
   /*=========blog leave comments ============*/
   h3.blog-leave-comment-title{
     margin-top: 20px;
-    color: #11317b; 
+    color: #11317b;
     font-weight: 600;
     font-size: 18px;
     margin-bottom: 25px;
@@ -2109,7 +2109,7 @@ section.ecole-breadcrumbs .col-12{
     top: 45px;
   }
   /*====== blue line for Admission ======== */
-  
+
   /*====== blue line for bulletin board start ======== */
   .ecol-blog-right-side h4.search-title{
     margin-top: 5px;
@@ -2156,20 +2156,20 @@ section.ecole-breadcrumbs .col-12{
       max-height: 250px;
 
     }
-    
-   
+
+
   }
 /*---====EDGE browser css =====---*/
- 
 
-  
-  
+
+
+
   .ecol-blog-right-side .ecol-blogs-tags ul.tags, .ecol-board .ecol-blogs-categories ul.blog-category,.ecol-blogs-recent-post ul.recent-posts-ul {
     margin-left: 0px !important;
   }
 
   .ecol-board .ecol-blogs-categories ul.blog-category li{
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .ecol-board .ecol-blogs-categories ul.blog-category li.active a{
@@ -2306,14 +2306,14 @@ section.ecole-breadcrumbs .col-12{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999; 
+    z-index: 999;
   }
 
   /*=== header sub menu show =====*/
   .ecol-header .ecol-navbar li:hover .dropdown {
     transform: scale(1.0);
     opacity: 1;
-    visibility: visible;  
+    visibility: visible;
   }
   /*=== header sub menu show =====*/
 
@@ -2356,8 +2356,8 @@ section.ecole-breadcrumbs .col-12{
   .university-logos .carousel-wrap {
     margin-top: 24px;
    /* margin-bottom: -27px;*/
-    padding: 0 8%;   
-  }  
+    padding: 0 8%;
+  }
 
   .ecol-board .ecol-card-deck{
     padding: 10px 10px;
@@ -2372,7 +2372,7 @@ section.ecole-breadcrumbs .col-12{
   /*.ecol-header .ecol-navbar li:hover .dropdown {
     transform: scale(1.0);
     opacity: 1;
-    visibility: visible;  
+    visibility: visible;
   }*/
   .ecol-page-section{
     display: inline-block;
@@ -2382,7 +2382,7 @@ section.ecole-breadcrumbs .col-12{
     max-width: 100%
   }
 
-  .section-academic-details .acedemic-desc img, .section-academic-details .acedemic-desc iframe{    
+  .section-academic-details .acedemic-desc img, .section-academic-details .acedemic-desc iframe{
     max-width: 100%;
   }
 
@@ -2392,14 +2392,14 @@ section.ecole-breadcrumbs .col-12{
     font-size: 28px;
     font-weight: 600;
   }
- 
+
   .ecol-section.ecol-margin-top{
     margin-top: 35px;
   }
 
   .ecol-home-banner .ecol-banner-caption {
-    position: absolute;    
-    bottom: 7%;   
+    position: absolute;
+    bottom: 7%;
     color: #fff;
     text-align: justify;
   }
@@ -2417,7 +2417,7 @@ section.ecole-breadcrumbs .col-12{
     font-size: 12px;
     padding: 13px 13px !important;
     background: #ffcc28;
-    
+
   }
 
   .ecol-home-banner .ecol-button-box .btn-ecol{
@@ -2427,8 +2427,8 @@ section.ecole-breadcrumbs .col-12{
   .ecol-section .ecol-home-card{
     margin-bottom: 20px;
   }
-  
-  .ecol-home-testimonial .owl-nav {    
+
+  .ecol-home-testimonial .owl-nav {
     display: none;
   }
   .ecol-home-testimonial .owl-carousel.owl-drag .owl-item{
@@ -2439,14 +2439,11 @@ section.ecole-breadcrumbs .col-12{
     display: none;
   }
 
-  .university-logos .owl-nav {    
+  .university-logos .owl-nav {
     display: none;
   }
   .university-logos .carousel-wrap {
-    margin-top: 38px;   
-  } 
+    margin-top: 38px;
+  }
   /*============= university logos css end===============*/
 }
-
-
-
