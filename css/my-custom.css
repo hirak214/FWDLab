@@ -76,7 +76,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
     height: 200px
   }
   .ecol-board .board-date{
-    color: red;
+    color: #11317B;
     bottom: 0px;
     left: 0px;
     background-color: #FFCC56;
