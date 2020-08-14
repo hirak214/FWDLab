@@ -1,9 +1,5 @@
-/*
-  yellow color-code  - #ffcc28
-  Blue color-code  - #11317B
 
-*/
-  /* Make the image fully responsive */
+
 body {
   font-family: 'Asap', sans-serif !important;
 }
@@ -18,7 +14,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
   outline: none;
 }
 
-/*================== ecol banner css for text animation start =================== */
 #demos .owl-carousel .owl-item img{
   height: 478px;
 }
@@ -37,10 +32,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 .ecol-home-banner .owl-carousel .owl-video-tn{
   background-size: cover !important;
 }
-/*================== ecol banner css for text animation end =================== */
 
-
-/*================== academic css start =================== */
   .section-academic-details p.academic-desc{
     margin-top: 45px;
   }
@@ -60,10 +52,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
   .section-academic-details ul, .section-academic-details ul li {
     list-style: disc;
   }
-/*================== academic css End =================== */
 
-
-/*================== bulletien board css start =================== */
   .ecol-board .board-title{
     height: 58px;
   }
@@ -91,10 +80,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
   .ecol-board p.byname span{
     color: #11317B;
   }
-/*================== bulletien board end =================== */
-
-
-/*================== bulletien board information start =================== */
 .blog-info-section .blog-user-name {
   color: #11317B;
   text-transform: uppercase;
@@ -112,10 +97,8 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 .blog-info-section  .blog-sidebar-search1 {
   border: 1px solid #11317b;
-  /* border-width: 1px 0 0; */
   clear: both;
   height: 0;
-  /*margin: 0.25rem 0px 1.1875rem*/;
   width: 90px;
   margin-left: 8px;
   margin-top: 5px;
@@ -123,7 +106,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 }
 .blog-info-section .blog-sidebar-search2 {
   border: 1px solid #11317b;
-  /* border-width: 1px 0 0; */
   clear: both;
   height: 0;
   margin: 0.25rem 0px 1.1875rem;
@@ -164,7 +146,6 @@ button, html input[type="button"], input[type="reset"], input[type="submit"]{
 .blog-info-section .blog-title{
   color: #11317B;
 }
-/*================== bulletien board information End =================== */
 
 
 /*================== carrer css start =================== */
