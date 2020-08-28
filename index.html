@@ -3,71 +3,77 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Page</title>
-		 <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 		 <link rel="stylesheet" href="css/my-custom.css">
 	</head>
 	<body>
 
-		<header class="text-white body-font">
-      <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-        </nav>
-        <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0-">
-          <div class="clip-text1">
-            <img src="res/logo.jpeg" alt="">
+
+          <div style="background-color: #40a8c4;">
+						<table>
+			    		<tr>
+								<td><img src="res/logo.jpeg" alt="" width="140" height="150"></td>
+			    			<td> <p>Home</p> </td>
+								<td> <p>Addmissions</p> </td>
+								<td> <p>Contact Us</p> </td>
+								<td> <p>Home</p> </td>
+			    		</tr>
+			    	</table>
           </div>
-        </a>
-        <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-        </div>
-      </div>
-    </header>
-    <header class="text-white body-font">
-      <hr style="width:45%; margin: auto;">
-    	<table>
-    		<tr>
-    			<td> <p style="color:black;">Home</p> </td>
-					<td> <p style="color:black;">Addmissions</p> </td>
-					<td> <p style="color:black;">Contact Us</p> </td>
-					<td> <p style="color:black;">Home</p> </td>
-    		</tr>
-    	</table>
-      </header>
 
-			<marquee behavior="scroll" direction="right" style="color:red;">Addmission Open for 2020</marquee>
-			<br><br>
+					<!-- Scrollling Bar -->
+<div class="" style="background-color: #07689f ">
+		<marquee behavior="scroll" direction="right" style="color: #ffc93c; size: 40;">Addmission Open for 2020</marquee>
+</div>
 
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			<p>
 
-			 	<span style="color:#000080" style="font-size:xx-large;"><u>Student Details</u></span>
-			 </p>
-			   <input type="text" placeholder="Student Name *" name="fname">
-			   <input type="text" placeholder="Date of Birth *" name="fname">
-			</form>
+<!-- image box -->
+			<div class="container">
+  <img src="res/collegekids.png" alt="Snow" style="width:100%;">
+  <div class="centered">
+<button class="button button2">Addmisions Open!!</button>
+	</div>
+</div>
+<h3 style="background: #f5f1da;">NMIMS Universitynis committed to student and promotes the welfare of all students. The school expects all staff, visitors and volunteers to share this commitment. All employees are required to undergo relevant background checks and to be compliant with our  Child Protection Policy .</h3>
+<h4>Fill up the application form below. The mandatory fields are marked with an *</h4>
+
+
+
+<form>
+  <input type="radio"  name="gender" value="AFA"> <label for="male">Apply for Addmisions</label><br>
+  <input type="radio"  name="gender" value="SVA"> <label for="female">Schedule a visit for admission</label><br>
+  <input type="radio"  name="gender" value="EAA"> <label for="other">Enquiry About admission</label>
+</form>
+
 
 			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Residency Address *" name="fname">
-			</form>
+			<div class="" style="background: #f8bd7f; width: 11%">
+				<h2>Student Details</h2>
+			</div>
 
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Select A Country *" name="fname">
-			   <input type="text" placeholder="City *" name="fname">
-			</form>
-
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+			 <a>First Name: </a> <input type="text" placeholder="Student First Name*" name="fname">
+			 <a>Last Name: </a> <input type="text" placeholder="Student Last Name*" name="lname">
+			 <br> <br>
+			 <a>DOB: </a> <input type="date" placeholder="DOB" name="DOB">
+			 <br> <br>
+			 <a>Address: </a>
+			 <input type="text" placeholder="Residency Address*" name="fname">
+			 <input type="text" placeholder="City*" name="fname">
+			 <input type="text" placeholder="Select A Country*" name="fname">
+<br><br>
+<a>Grade selection: </a>
 			   <input type="text" placeholder="Present Grade*" name="fname">
 			   <input type="text" placeholder="Grade to Join *" name="fname">
-			</form>
+
 
 			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 			   <input type="text" placeholder="Seeking Addmision for Acadamic Year*" name="fname">
 			   <input type="text" placeholder="Nationality *" name="fname">
 			   </form>
 
-			   <p>
 
-			 	<span style="color:#000080" style="font-size:xx-large;"><u>Parent/Guardian Details</u></span>
-			 </p>
+				 <div class="" style="background: #f8bd7f; width: 18%">
+				 	<h2>Parent/Guardian Details</h2>
+				 </div>
 
 			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 			   <input type="text" placeholder="Father's/Guardian Name *" name="fname">
@@ -108,10 +114,11 @@
 			   <input type="text" placeholder="Mother's Office Address*" name="fname">
 			</form>
 			</h6>
-			 <p>
 
-			 	<span style="color:#000080" style="font-size:xx-large;"><u>Other Information</u></span>
-			 </p>
+
+			<div class="" style="background: #f8bd7f; width: 13%">
+		 	<h2>Other Information</h2>
+		  </div>
 
 			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 			   <input type="text" placeholder="Student's Pasport Type*" name="fname">
