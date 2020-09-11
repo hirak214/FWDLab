@@ -75,7 +75,13 @@ td {
   transform: translate(-50%, -50%);
 }
 
-
+.center {
+  background-color: #a2d5f2;
+  margin: auto;
+  width: 40%;
+  border: 10px black;
+  padding: 10px;
+}
 
 .button {
   background-color: #ffc93c;
