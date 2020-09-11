@@ -15,7 +15,7 @@
 			    			<td> <p>Home</p> </td>
 								<td> <p>Addmissions</p> </td>
 								<td> <p>Contact Us</p> </td>
-								<td> <p>Home</p> </td>
+								<td> <p>Campus</p> </td>
 			    		</tr>
 			    	</table>
           </div>
@@ -46,96 +46,71 @@
 
 
 			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			<div class="" style="background: #f8bd7f; width: 11%">
-				<h2>Student Details</h2>
-			</div>
+
+<!-- STUDENT DETAILS -->
+	<div class="" style="background: #f8bd7f; width: 11%">
+		<h2>Student Details</h2>
+	</div>
 
 			 <a>First Name: </a> <input type="text" placeholder="Student First Name*" name="fname">
 			 <a>Last Name: </a> <input type="text" placeholder="Student Last Name*" name="lname">
-			 <br> <br>
+			 <br><br>
 			 <a>DOB: </a> <input type="date" placeholder="DOB" name="DOB">
-			 <br> <br>
-			 <a>Address: </a>
-			 <input type="text" placeholder="Residency Address*" name="fname">
-			 <input type="text" placeholder="City*" name="fname">
-			 <input type="text" placeholder="Select A Country*" name="fname">
-<br><br>
-<a>Grade selection: </a>
-			   <input type="text" placeholder="Present Grade*" name="fname">
-			   <input type="text" placeholder="Grade to Join *" name="fname">
+			 <br><br>
+			 <a>Address: </a> <input type="text" placeholder="Residency Address*" name="fname">	 <input type="text" placeholder="City*" name="fname">	 <input type="text" placeholder="Select A Country*" name="fname">
+			 <br><br>
+			 <a>Nationality: </a> <input type="text" placeholder="Nationality *" name="fname">
+			 <br><br>
+			 <a>Grade selection: </a> <input type="text" placeholder="Present Grade*" name="fname">  <input type="text" placeholder="Grade to Join *" name="fname"> <input type="text" placeholder="Accedemic Year*" name="fname">
 
+<!-- PARENT DETAILS -->
+ 	<div class="" style="background: #f8bd7f; width: 18%">
+		<h2>Parent/Guardian Details</h2>
+ </div>
+				<a>Fathers Name: </a> <input type="text" placeholder="Father's/Guardian Name*" name="faname"> <br>
+				<a>Father's Mobile No.: </a> <input type="text" placeholder="Father's Mobile No*" name="fmnname"> <br>
+				<a>Father's Occupation: </a> <input type="text" placeholder="Father's Occupation*" name="fname"> <br>
+				<a>Father's Designation: </a> <input type="text" placeholder="Father's Designation*" name="fname"> <br>
+				<a>Father's Organisation: </a> <input type="text" placeholder="Father's Organisation*" name="fname"> <br>
+				<a>Father's E-mail: </a> <input type="text" placeholder="Father's E-mail*" name="fname">
+				<br><br>
+				<a>Mother's Name:</a> <input type="text" placeholder="Mother's/Guardian Name*" name="moname"> <br>
+			  <a>Mother's Mobile No.: </a> <input type="text" placeholder="Mother's Mobile No*" name="mmnname"> <br>
+			  <a>Mother's Designation Occupation: </a> <input type="text" placeholder="Mother's Occupation*" name="fname"> <br>
+			  <a>Mothers's Designation: </a> <input type="text" placeholder="Mother's Designation*" name="fname"> <br>
+				<a>Mother's Organisation: </a> <input type="text" placeholder="Mother's Organisation*" name="fname"> <br>
+			  <a>Mother's E-mail: </a> <input type="text" placeholder="Mother's E-mail*" name="fname">
+				<br><br>
 
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Seeking Addmision for Acadamic Year*" name="fname">
-			   <input type="text" placeholder="Nationality *" name="fname">
-			   </form>
-
-
-				 <div class="" style="background: #f8bd7f; width: 18%">
-				 	<h2>Parent/Guardian Details</h2>
-				 </div>
-
-			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Father's/Guardian Name *" name="fname">
-			   <input type="text" placeholder="Mother's/Guardian Name *" name="fname">
-			</form>
-
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			<h6>Father's Mobile No*
-			   <input type="text" placeholder="Father's Mobile No*" name="fname">
-			Mother's Mobile No*
-			   <input type="text" placeholder="Mother's Mobile No*" name="fname">
-			</form>
-
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Father's Occupation*" name="fname">
-			   <input type="text" placeholder="Father's Designation*" name="fname">
-			    <input type="text" placeholder="Mother's Occupation*" name="fname">
-			   <input type="text" placeholder="Mother's Designation*" name="fname">
-			</form>
-
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Father's Organisation*" name="fname">
-			   <input type="text" placeholder="Father's E-mail*" name="fname">
-			    <input type="text" placeholder="Mother's Organisation*" name="fname">
-			   <input type="text" placeholder="Mother's E-mail*" name="fname">
-			</form>
-
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			Father's Residence/Office No.*
-			   <input type="text" placeholder="Code*" name="fname">
-			   <input type="text" placeholder="Father's Residence/Office No. *" name="fname"> Mother's Residence/Office No. *
-			    <input type="text" placeholder="Code*" name="fname">
-			    <input type="text" placeholder="Mother's Residence/Office No. *" name="fname">
-			</form>
-
-			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Father's Office Address*" name="fname">
-			   <input type="text" placeholder="Mother's Office Address*" name="fname">
-			</form>
-			</h6>
-
-
+<!-- OTHER INFORMATION -->
 			<div class="" style="background: #f8bd7f; width: 13%">
 		 	<h2>Other Information</h2>
 		  </div>
-
-			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-			   <input type="text" placeholder="Student's Pasport Type*" name="fname">
+			 <a>Student's Passprt Type: </a> <input type="text" placeholder="Student's Pasport Type*" name="fname">
 			    <input type="text" placeholder="Forgine Pasport Type *" name="fname">
-			</form>
 
 
-			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+
 			   <input type="text" placeholder="How you heard about our school*" name="fname">
-			</form>
 
-			 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+
 			   <input type="text" placeholder="What do you wish to know*" name="fname">
-			</form>
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+
 			 <input type="submit" value="Submit">
 			</form>
+
+
+<div class="center" >
+	<footer>
+<p >Address: Gulmohar Cross Road No.-9 J.V.P.D Scheme, Juhu, Mumbai 400 049 India </p>
+<p>Phone:   +91-22-61306130</p>
+<p> ©️ 2020 NMIMS | Brought to Life by HIRAK|CHAITANYA|AARYA</p>
+</footer>
+</div>
+
 
 	</body>
 </html>
