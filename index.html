@@ -8,8 +8,8 @@
 	<body>
 
 
-          <div style="background-color: #40a8c4;">
-						<table>
+          <div class="header">
+						<table class="tablea">
 			    		<tr>
 								<td><img src="res/logo.jpeg" alt="" width="140" height="150"></td>
 			    			<td> <p>Home</p> </td>
@@ -21,37 +21,38 @@
           </div>
 
 					<!-- Scrollling Bar -->
-<div class="" style="background-color: #07689f ">
-		<marquee behavior="scroll" direction="right" style="color: #ffc93c; size: 40;">Addmission Open for 2020</marquee>
+<div class="scroll-bar">
+		<marquee behavior="scroll" direction="right" style="color: #ffc93c;">Addmission Open for 2020</marquee>
 </div>
 
 
 <!-- image box -->
 			<div class="container">
-  <img src="res/collegekids.png" alt="Snow" style="width:100%;">
+  <img src="res/collegekids.png" alt="Snow" style="width:100%; height:700px;">
   <div class="centered">
 <button class="button button2">Addmisions Open!!</button>
 	</div>
 </div>
-<h3 style="background: #f5f1da;">NMIMS Universitynis committed to student and promotes the welfare of all students. The school expects all staff, visitors and volunteers to share this commitment. All employees are required to undergo relevant background checks and to be compliant with our  Child Protection Policy .</h3>
-<h4>Fill up the application form below. The mandatory fields are marked with an *</h4>
+<div class="fill-form">
+	<h3 style="background: #f5f1da;">NMIMS Universitynis committed to student and promotes the welfare of all students. The school expects all staff, visitors and volunteers to share this commitment. All employees are required to undergo relevant background checks and to be compliant with our  Child Protection Policy .</h3>
+	<h4>Fill up the application form below. The mandatory fields are marked with an *</h4>
 
+	<form>
+	  <input type="radio"  name="gender" value="AFA"> <label for="male">Apply for Addmisions</label><br>
+	  <input type="radio"  name="gender" value="SVA"> <label for="female">Schedule a visit for admission</label><br>
+	  <input type="radio"  name="gender" value="EAA"> <label for="other">Enquiry About admission</label>
+	</form>
 
+</div>
 
-<form>
-  <input type="radio"  name="gender" value="AFA"> <label for="male">Apply for Addmisions</label><br>
-  <input type="radio"  name="gender" value="SVA"> <label for="female">Schedule a visit for admission</label><br>
-  <input type="radio"  name="gender" value="EAA"> <label for="other">Enquiry About admission</label>
-</form>
-
+<div class="form">
 
 			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 
 <!-- STUDENT DETAILS -->
-	<div class="" style="background: #f8bd7f; width: 11%">
+	<div class="" style="background: #f8bd7f; width: auto;">
 		<h2>Student Details</h2>
 	</div>
-
 			 <a>First Name: </a> <input type="text" placeholder="Student First Name*" name="fname">
 			 <a>Last Name: </a> <input type="text" placeholder="Student Last Name*" name="lname">
 			 <br><br>
@@ -64,26 +65,46 @@
 			 <a>Grade selection: </a> <input type="text" placeholder="Present Grade*" name="fname">  <input type="text" placeholder="Grade to Join *" name="fname"> <input type="text" placeholder="Accedemic Year*" name="fname">
 
 <!-- PARENT DETAILS -->
- 	<div class="" style="background: #f8bd7f; width: 18%">
+ 	<div class="" style="background: #f8bd7f; width: auto;">
 		<h2>Parent/Guardian Details</h2>
  </div>
-				<a>Fathers Name: </a> <input type="text" placeholder="Father's/Guardian Name*" name="faname"> <br>
-				<a>Father's Mobile No.: </a> <input type="text" placeholder="Father's Mobile No*" name="fmnname"> <br>
-				<a>Father's Occupation: </a> <input type="text" placeholder="Father's Occupation*" name="fname"> <br>
-				<a>Father's Designation: </a> <input type="text" placeholder="Father's Designation*" name="fname"> <br>
-				<a>Father's Organisation: </a> <input type="text" placeholder="Father's Organisation*" name="fname"> <br>
-				<a>Father's E-mail: </a> <input type="text" placeholder="Father's E-mail*" name="fname">
+ <table>
+ 	<tr>
+ 		<td> <a>Fathers Name: </a> <input type="text" placeholder="Father's/Guardian Name*" name="faname"> </td>
+		<td> <a>Father's Mobile No.: </a> <input type="text" placeholder="Father's Mobile No*" name="fmnname"> </td>
+ 	</tr>
+	<tr>
+		<td><a>Father's Occupation: </a> <input type="text" placeholder="Father's Occupation*" name="fname"></td>
+		<td><a>Father's Designation: </a> <input type="text" placeholder="Father's Designation*" name="fname"> <br></td>
+	</tr>
+	<tr>
+		<td><a>Father's Organisation: </a> <input type="text" placeholder="Father's Organisation*" name="fname"></td>
+		<td><a>Father's E-mail: </a> <input type="text" placeholder="Father's E-mail*" name="fname"></td>
+	</tr>
+ </table>
 				<br><br>
-				<a>Mother's Name:</a> <input type="text" placeholder="Mother's/Guardian Name*" name="moname"> <br>
-			  <a>Mother's Mobile No.: </a> <input type="text" placeholder="Mother's Mobile No*" name="mmnname"> <br>
-			  <a>Mother's Designation Occupation: </a> <input type="text" placeholder="Mother's Occupation*" name="fname"> <br>
-			  <a>Mothers's Designation: </a> <input type="text" placeholder="Mother's Designation*" name="fname"> <br>
-				<a>Mother's Organisation: </a> <input type="text" placeholder="Mother's Organisation*" name="fname"> <br>
-			  <a>Mother's E-mail: </a> <input type="text" placeholder="Mother's E-mail*" name="fname">
+				<table>
+					<tr>
+						<td><a>Mother's Name:</a> <input type="text" placeholder="Mother's/Guardian Name*" name="moname"></td>
+						<td><a>Mother's Mobile No.: </a> <input type="text" placeholder="Mother's Mobile No*" name="mmnname"> <br></td>
+					</tr>
+					<tr>
+						<td><a>Mother's Designation Occupation: </a> <input type="text" placeholder="Mother's Occupation*" name="fname"></td>
+						<td><a>Mothers's Designation: </a> <input type="text" placeholder="Mother's Designation*" name="fname"> <br></td>
+					</tr>
+					<tr>
+						<td><a>Mother's Organisation: </a> <input type="text" placeholder="Mother's Organisation*" name="fname"></td>
+						<td><a>Mother's E-mail: </a> <input type="text" placeholder="Mother's E-mail*" name="fname"></td>
+					</tr>
+				</table>
+
+
+
+
 				<br><br>
 
 <!-- OTHER INFORMATION -->
-			<div class="" style="background: #f8bd7f; width: 13%">
+			<div class="" style="background: #f8bd7f; width: auto;">
 		 	<h2>Other Information</h2>
 		  </div>
 			 <a>Student's Passprt Type: </a> <input type="text" placeholder="Student's Pasport Type*" name="fname">
@@ -101,9 +122,9 @@
 
 			 <input type="submit" value="Submit">
 			</form>
+</div>
 
-
-<div class="center" >
+<div class="center">
 	<footer>
 <p >Address: Gulmohar Cross Road No.-9 J.V.P.D Scheme, Juhu, Mumbai 400 049 India </p>
 <p>Phone:   +91-22-61306130</p>
