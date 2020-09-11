@@ -6,8 +6,6 @@
 		 <link rel="stylesheet" href="css/my-custom.css">
 	</head>
 	<body>
-
-
           <div class="header">
 						<table class="tablea">
 			    		<tr>
@@ -47,7 +45,7 @@
 
 <div class="form">
 
-			<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+			<form name="myForm" action="#" onsubmit="return validateForm()" method="post">
 
 <!-- STUDENT DETAILS -->
 	<div class="" style="background: #f8bd7f; width: auto;">
@@ -97,10 +95,6 @@
 						<td><a>Mother's E-mail: </a> <input type="text" placeholder="Mother's E-mail*" name="fname"></td>
 					</tr>
 				</table>
-
-
-
-
 				<br><br>
 
 <!-- OTHER INFORMATION -->
@@ -109,17 +103,8 @@
 		  </div>
 			 <a>Student's Passprt Type: </a> <input type="text" placeholder="Student's Pasport Type*" name="fname">
 			    <input type="text" placeholder="Forgine Pasport Type *" name="fname">
-
-
-
-
 			   <input type="text" placeholder="How you heard about our school*" name="fname">
-
-
-
 			   <input type="text" placeholder="What do you wish to know*" name="fname">
-
-
 			 <input type="submit" value="Submit">
 			</form>
 </div>
@@ -133,5 +118,162 @@
 </div>
 
 
+      <script>
+        function validateForm()
+        {
+          //////Student Details//////
+          var stname = document.forms["myForm"]["fname"].value;
+          if(stname==""){
+            alert("Name must be filled out");
+            return false;
+          }
+          if((stname.length <= 2) || (stname.length > 20)){
+            document.getElementById("stuname").innerHTML = " ** Student length must be between 2 and 20";
+            return false;
+          }
+
+					var stlname = document.forms["myForm"]["lname"].value;
+					if(stlname==""){
+						alert("Last Name must be filled out");
+						return false;
+					}
+					if((stlname.length <= 2) || (stlname.length > 20)){
+						document.getElementById("lname").innerHTML = " ** Student length must be between 2 and 20";
+						return false;
+					}
+
+
+          var dtdate = document.forms["myForm"]["dob"].value;
+          if (dtdate == "") {
+						alert("DOB must be filled out");
+            document.getElementById("dob").innerHTML = " ** Please fill the Date Of Birth field.";
+            return false;
+          }
+
+          var radd = document.forms["myForm"]["resadd"].value;
+          if (radd == ""){
+						alert("Address must be filled out");
+            document.getElementById("resadd").innerHTML = " ** Please fill the Residential Address field.";
+            return false;
+          }
+          var selcoun = document.forms["myForm"]["selcont"].value;
+          if (selcoun == "") {
+						alert("Country must be filled out");
+            document.getElementById("selcount").innerHTML = " ** Please fill the Select Country field.";
+            return false;
+          }
+          var cityn = document.forms["myForm"]["cityname"].value;
+          if (cityn == "") {
+						alert("City must be filled out");
+            document.getElementById("cityame").innerHTML = " ** Please fill the City Name";
+            return false;
+          }
+          var pinc = document.forms["myForm"]["pcode"].value;
+          if (pinc == "") {
+						alert("Pincode must be filled out");
+            document.getElementById("pcode").innerHTML = " ** Please fill the Pincode field.";
+            return false;
+          }
+
+          var pgrade = document.forms["myForm"]["grade"].value;
+          if (pgrade == "") {
+						alert("Grade must be filled out");
+            document.getElementById("grade").innerHTML = " ** Please fill the Present Grade field.";
+            return false;
+          }
+
+          var nation = document.forms["myForm"]["natname"].value;
+          if (nation == "") {
+						alert("Nation must be filled out");
+            document.getElementById("nationname").innerHTML = " ** Please fill the Nationality field.";
+            return false;
+          }
+          //////Parent/Guardian Details//////
+          var fathername = document.forms["myForm"]["fatname"].value;
+          if (fathername == "") {
+						alert("Father's Name must be filled out");
+            document.getElementById("fathern").innerHTML = " ** Please fill the Father's/Guardian's Name field.";
+            return false;
+          }
+          var mothername = document.forms["myForm"]["momname"].value;
+          if (mothername == "") {
+						alert("Moher's Name must be filled out");
+            document.getElementById("mothern").innerHTML = " ** Please fill the Mother's/Guardian's Name field.";
+            return false;
+          }
+          var fathermob = document.forms["myForm"]["fatmob"].value;
+          if (fathermob == "") {
+						alert("Father's Mobile must be filled out");
+            document.getElementById("fathermno").innerHTML = " ** Please fill the Father's Mobile No. field.";
+            return false;
+          }
+          var mothermob = document.forms["myForm"]["mommob"].value;
+          if (mothermob == "") {
+						alert("Mother's Mobile Number must be filled out");
+            document.getElementById("mothermno").innerHTML = " ** Please fill the Mother's Mobile No. field.";
+            return false;
+          }
+          var fatherocc = document.forms["myForm"]["fatocc"].value;
+          if (fatherocc == "") {
+            document.getElementById("fatherop").innerHTML = " ** Please fill the Father Occupation field.";
+            return false;
+          }
+          var momtherocc = document.forms["myForm"]["momocc"].value;
+          if (motherocc == "") {
+            document.getElementById("motherop").innerHTML = " ** Please fill the Mother Occupation field.";
+            return false;
+          }
+          var fatherem = document.forms["myForm"]["fatem"].value;
+          var atposition = fatherem.indexOf("@");
+          var dotposition = fatherem.lastIndexOf(".");
+          if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= fatherem.length)
+          {
+            document.getElementById("fatheremail").innerHTML = " ** Please Father's enter a valid e-mail address \n atpostion:" + atposition
+            + "\ndotposition:" + dotposition;
+            return false;
+          }
+          var motherem = document.forms["myForm"]["momem"].value;
+          var atposition = motherem.indexOf("@");
+          var dotposition = motherem.lastIndexOf(".");
+          if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= motherem.length)
+          {
+            document.getElementById("motheremail").innerHTML = " ** Please Mother's enter a valid e-mail address \n atpostion:" + atposition
+            + "\ndotposition:" + dotposition;
+            return false;
+          }
+          var fatheroffice = document.forms["myForm"]["fatoff"].value;
+          if (fatheroffice == "") {
+            document.getElementById("fatherofficeadd").innerHTML = " ** Please fill the Father's Office Address field.";
+            return false;
+          }
+          var motheroffice = document.forms["myForm"]["momoff"].value;
+          if (fatheroffice == "") {
+            document.getElementById("motherofficeadd").innerHTML = " ** Please fill the Mother's Address field.";
+            return false;
+          }
+
+          //////Other Details//////
+          var studentpassport = document.forms["myForm"]["spaport"].value;
+          if (studentpassport == "") {
+            document.getElementById("spassport").innerHTML = " ** Please fill the Student's Passport Type field.";
+            return false;
+          }
+          var foreignpassport = document.forms["myForm"]["fpaport"].value;
+          if (studentpassport == "") {
+            document.getElementById("fpassport").innerHTML = " ** Please fill the Foreign Passport Type field.";
+            return false;
+          }
+          var whereh = document.forms["myForm"]["heard"].value;
+          if (whereh == "") {
+            document.getElementById("heardabout").innerHTML = " ** Please tell us that, how you heard about our school.";
+            return false;
+          }
+          var wishkn = document.forms["myForm"]["wish"].value;
+          if (wishkn == "") {
+            document.getElementById("wishknow").innerHTML = " ** Please tell us that, what do you wish to know about us.";
+            return false;
+          }
+        }
+</script>
 	</body>
 </html>
